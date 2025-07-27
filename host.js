@@ -9,5 +9,17 @@ const Quiz4 = document.querySelector("#Quiz4")
 console.log(IconOne,IconTwo,IconThree,IconFour)
 
 IconOne.addEventListener("click", () =>{
-    Quiz1.style.display = "block"
+    Quiz1.classList.toggle("hidden")
+})
+// icon-two
+IconTwo.addEventListener("click", () =>{
+    Quiz2.classList.toggle("hidden")
+})
+// icon-three
+IconThree.addEventListener("click", () =>{
+    Quiz3.classList.toggle("hidden")
+})
+// icon-three
+IconFour.addEventListener("click", () =>{
+    Quiz4.classList.toggle("hidden")
 })
